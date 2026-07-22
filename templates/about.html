@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Tution</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1><i class="fas fa-graduation-cap"></i> Tution</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about" class="active">About</a></li>
+                <li><a href="/faculty">Faculty</a></li>
+                <li><a href="/register" class="btn-register">Register</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Discover our story, mission, and commitment to educational excellence</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Founded in 2014, Tution has grown from a small tutoring center to a leading educational institution serving thousands of students. Our journey began with a simple vision: to make quality education accessible to everyone.</p>
+                    <p>Over the years, we have helped countless students achieve their academic goals, from improving grades to securing admissions in top universities. Our commitment to excellence has made us a trusted name in education.</p>
+                    <p>Today, we continue to innovate and adapt to the changing educational landscape, ensuring our students receive the best possible learning experience.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder large">
+                        <i class="fas fa-school"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="mission-vision">
+        <div class="container">
+            <div class="mv-grid">
+                <div class="mv-card">
+                    <div class="mv-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To provide exceptional educational support that empowers students to achieve their full potential and become lifelong learners.</p>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To be the leading educational institution recognized for excellence in teaching, innovation in learning, and student success.</p>
+                </div>
+                <div class="mv-card">
+                    <div class="mv-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Our Values</h3>
+                    <p>Excellence, Integrity, Innovation, and Student-Centered Approach guide everything we do at Tution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Makes Us Different -->
+    <section class="different-section">
+        <div class="container">
+            <h2 class="section-title">What Makes Us Different</h2>
+            <div class="different-grid">
+                <div class="different-item">
+                    <div class="different-number">01</div>
+                    <h3>Personalized Approach</h3>
+                    <p>Every student is unique. We create customized learning plans tailored to individual needs and learning styles.</p>
+                </div>
+                <div class="different-item">
+                    <div class="different-number">02</div>
+                    <h3>Qualified Educators</h3>
+                    <p>Our tutors are highly qualified, experienced, and passionate about teaching and student success.</p>
+                </div>
+                <div class="different-item">
+                    <div class="different-number">03</div>
+                    <h3>Modern Teaching Methods</h3>
+                    <p>We use innovative teaching techniques and technology to make learning engaging and effective.</p>
+                </div>
+                <div class="different-item">
+                    <div class="different-number">04</div>
+                    <h3>Regular Progress Tracking</h3>
+                    <p>We monitor student progress continuously and provide detailed feedback to parents and students.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Tution helped me improve my math grades from C to A in just three months. The tutors are amazing and really care about your success."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Grade 12 Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The personalized attention I received at Tution made all the difference. I got into my dream university thanks to their guidance."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>University Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"As a parent, I've seen tremendous growth in my child's confidence and academic performance. Highly recommend Tution to everyone."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Parent</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Join Our Learning Community</h2>
+            <p>Become part of thousands of successful students who have transformed their education with Tution.</p>
+            <a href="/register" class="btn btn-primary">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Tution</h3>
+                    <p>Empowering students to achieve their academic goals through quality education and personalized guidance.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/faculty">Faculty</a></li>
+                        <li><a href="/register">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> Tution@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

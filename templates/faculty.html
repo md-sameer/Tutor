@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Faculty - Tution</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1><i class="fas fa-graduation-cap"></i> Tution</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/faculty" class="active">Faculty</a></li>
+                <li><a href="/register" class="btn-register">Register</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Faculty Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Faculty</h1>
+            <p>Meet our team of dedicated and experienced educators</p>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section class="faculty-section">
+        <div class="container">
+            <h2 class="section-title">Meet Our Expert Tutors</h2>
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <div class="image-placeholder faculty">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. James Wilson</h3>
+                        <p class="faculty-subject">Mathematics</p>
+                        <p class="faculty-education">Ph.D. in Mathematics, MIT</p>
+                        <p class="faculty-experience">15 years of teaching experience</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <div class="image-placeholder faculty">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Sarah Mitchell</h3>
+                        <p class="faculty-subject">Physics</p>
+                        <p class="faculty-education">M.S. in Physics, Stanford</p>
+                        <p class="faculty-experience">12 years of teaching experience</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <div class="image-placeholder faculty">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Emily Chen</h3>
+                        <p class="faculty-subject">Chemistry</p>
+                        <p class="faculty-education">Ph.D. in Chemistry, Harvard</p>
+                        <p class="faculty-experience">10 years of teaching experience</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <div class="image-placeholder faculty">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Mr. David Brown</h3>
+                        <p class="faculty-subject">English</p>
+                        <p class="faculty-education">M.A. in English Literature, Oxford</p>
+                        <p class="faculty-experience">18 years of teaching experience</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <div class="image-placeholder faculty">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Lisa Anderson</h3>
+                        <p class="faculty-subject">Biology</p>
+                        <p class="faculty-education">Ph.D. in Biology, Cambridge</p>
+                        <p class="faculty-experience">8 years of teaching experience</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <div class="image-placeholder faculty">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Mr. Alex Thompson</h3>
+                        <p class="faculty-subject">Computer Science</p>
+                        <p class="faculty-education">M.S. in Computer Science, Carnegie Mellon</p>
+                        <p class="faculty-experience">6 years of teaching experience</p>
+                        <div class="faculty-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Our Faculty -->
+    <section class="why-faculty">
+        <div class="container">
+            <h2 class="section-title">Why Our Faculty Stands Out</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Highly Qualified</h3>
+                    <p>All our tutors hold advanced degrees from prestigious institutions and have subject matter expertise.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Experienced Educators</h3>
+                    <p>Our faculty members have years of teaching experience and a proven track record of student success.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Passionate Teachers</h3>
+                    <p>Our tutors are genuinely passionate about teaching and dedicated to helping students succeed.</p>
+                </div>
+                <div class="why-item">
+                    <div class="why-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Continuous Learning</h3>
+                    <p>Our faculty regularly updates their knowledge and teaching methods to stay current with educational trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Learn from the Best</h2>
+            <p>Register today and start learning from our expert faculty members.</p>
+            <a href="/register" class="btn btn-primary">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Tution</h3>
+                    <p>Empowering students to achieve their academic goals through quality education and personalized guidance.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/faculty">Faculty</a></li>
+                        <li><a href="/register">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> Tution@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

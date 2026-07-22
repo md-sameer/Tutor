@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tution - Excellence in Education</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1><i class="fas fa-graduation-cap"></i> Tution</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/faculty">Faculty</a></li>
+                <li><a href="/register" class="btn-register">Register</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Unlock Your Potential with <span class="highlight">Tution</span></h1>
+                <p>Expert guidance, personalized learning, and proven results. Join thousands of students achieving academic excellence.</p>
+                <div class="hero-buttons">
+                    <a href="/register" class="btn btn-primary">Get Started</a>
+                    <a href="/about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <i class="fas fa-book-reader"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Tution?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Expert Tutors</h3>
+                    <p>Learn from highly qualified and experienced educators dedicated to your success.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Personalized Learning</h3>
+                    <p>Tailored study plans designed to match your learning style and pace.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Flexible Schedule</h3>
+                    <p>Learn at your convenience with flexible timing options for all courses.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Proven Results</h3>
+                    <p>Track record of helping students achieve top grades and academic goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Mathematics</h3>
+                    <p>From algebra to calculus, master mathematical concepts with ease.</p>
+                    <span class="course-level">All Levels</span>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Science</h3>
+                    <p>Physics, Chemistry, and Biology - explore the wonders of science.</p>
+                    <span class="course-level">All Levels</span>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>English</h3>
+                    <p>Improve reading, writing, and communication skills effectively.</p>
+                    <span class="course-level">All Levels</span>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Computer Science</h3>
+                    <p>Programming, web development, and computer fundamentals.</p>
+                    <span class="course-level">Beginner to Advanced</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>5000+</h3>
+                    <p>Students Enrolled</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100+</h3>
+                    <p>Expert Tutors</p>
+                </div>
+                <div class="stat-item">
+                    <h3>95%</h3>
+                    <p>Success Rate</p>
+                </div>
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Learning Journey?</h2>
+            <p>Join Tution today and take the first step towards academic excellence.</p>
+            <a href="/register" class="btn btn-primary">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Tution</h3>
+                    <p>Empowering students to achieve their academic goals through quality education and personalized guidance.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/faculty">Faculty</a></li>
+                        <li><a href="/register">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> Tution@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
